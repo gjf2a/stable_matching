@@ -175,7 +175,7 @@ mod tests {
         assert_eq!(pairs, vec![(4, 0), (3, 1), (2, 2), (1, 3)]);
 
         let pairs =
-            stable_matching_distance(&women_group, &men_group, |m, w| (m.value - w.value).abs());
+            stable_matching_distance(&women_group, &men_group, |w, m| (w.value - m.value).abs());
         assert_eq!(pairs, vec![(3, 1), (2, 2), (1, 3), (0, 4)]);
     }
 
