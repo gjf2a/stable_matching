@@ -1,11 +1,11 @@
 [package]
 name = "stable_matching"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Implementation of the Gale-Shapley stable matching algorithm"
 readme = "README.md"
 homepage = "https://github.com/gjf2a/stable_matching"
-reposiotry = "https://github.com/gjf2a/stable_matching"
+repository = "https://github.com/gjf2a/stable_matching"
 license = "MIT OR Apache-2.0"
 keywords = ["gale-shapley", "stable-matching", "stable-marriage", "matching"]
 categories = ["algorithms"]
